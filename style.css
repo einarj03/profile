@@ -5,6 +5,19 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .4);
+}
+
 h1 {
   color: #0033c7;
   font-weight: 700;
@@ -43,7 +56,6 @@ table p {
 .container {
   width: 700;
   margin: 50px auto;
-  /*padding: 50px, auto;*/
 }
 
 div {
@@ -60,7 +72,6 @@ div {
   padding: 20px;
   margin-top: 20px;
   box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
-  /*width: 700;*/
 }
 
 .img-circle {
@@ -97,6 +108,9 @@ tr {
 td img {
   width: 100px;
 }
+ul {
+  padding: 0;
+}
 
 ul li {
   display: inline-block;
@@ -104,8 +118,10 @@ ul li {
   font-size: 50px;
 }
 
-ul {
-  padding: 0;
+#sidebar ul li {
+  display: block;
+  padding-top: 50px;
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {

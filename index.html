@@ -7,70 +7,80 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card text-center">
-      <img id="profile-pic" class="img-circle" src="images/einar.jpeg" alt="Einar Jonsson Profile Picture">
-      <h1>Einar Jonsson</h1>
-      <h2 id="tagline">Certified Legend</h2>
-      <!-- add description -->
-      <p id="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero id quasi quaerat sunt quis nihil.</p>
-      <a class="btn-blue" href="">See for yourself</a>
-    </div>
-    <div class="card text-center">
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/einar.jonsson" target="_blank">
-            <i class="fab fa-facebook-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/einar-jonsson/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="card text-center">
-      <h2>My Favorite Movies</h2>
-      <table>
-        <tbody class="text-center">
-          <tr>
-            <td><img src="images/hangover.jpg" alt="hangover"></td>
-            <td>
-              <h3>The Hangover</h3>
-              <p>Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.</p>
+  <div id="sidebar" class="text-center">
+    <ul>
+      <li><a href="#intro"><i class="fas fa-info-circle"></i></a></li>
+      <li><a href="#social-media"><i class="fas fa-comments"></i></a></li>
+      <li><a href="#movies"><i class="fas fa-video"></i></a></li>
+      <li><a href="#about"><i class="fas fa-anchor"></i></a></li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div id="intro" class="card text-center">
+        <img id="profile-pic" class="img-circle" src="images/einar.jpeg" alt="Einar Jonsson Profile Picture">
+        <h1>Einar Jonsson</h1>
+        <h2 id="tagline">Certified Legend</h2>
+        <!-- add description -->
+        <p id="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero id quasi quaerat sunt quis nihil.</p>
+        <a class="btn-blue" href="">See for yourself</a>
+      </div>
+      <div id="social-media" class="card text-center">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/einar.jonsson" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/einar-jonsson/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="movies" class="card text-center">
+        <h2>My Favorite Movies</h2>
+        <table>
+          <tbody class="text-center">
+            <tr>
+              <td><img src="images/hangover.jpg" alt="hangover"></td>
+              <td>
+                <h3>The Hangover</h3>
+                <p>Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="images/pursuit-of-happyness.jpg" alt="pursuit-of-happyness"></td>
+              <td>
+                <h3>The Pursuit of Happyness</h3>
+                <p>A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.</p>
             </td>
-          </tr>
-          <tr>
-            <td><img src="images/pursuit-of-happyness.jpg" alt="pursuit-of-happyness"></td>
-            <td>
-              <h3>The Pursuit of Happyness</h3>
-              <p>A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.</p>
-          </td>
-          </tr>
-          <tr>
-            <td><img src="images/shawshank-redemption.jpg" alt="shawshank Redemption"></td>
-            <td>
-              <h3>The Shawshank Redemption</h3>
-              <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card text-center">
-      <h2>About this page</h2>
-      <h3>This page has been coded during the FullStack program @LeWagon.</h3>
-      <ul>
-        <li><a href=""><i class="fas fa-heart"></i></a></li>
-        <li><a href=""><i class="fas fa-share"></i></a></li>
-        <li><a href=""><i class="fas fa-star"></i></a></li>
-      </ul>
+            </tr>
+            <tr>
+              <td><img src="images/shawshank-redemption.jpg" alt="shawshank Redemption"></td>
+              <td>
+                <h3>The Shawshank Redemption</h3>
+                <p>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="about" class="card text-center">
+        <h2>About this page</h2>
+        <h3>This page has been coded during the FullStack program @LeWagon.</h3>
+        <ul>
+          <li><a href=""><i class="fas fa-heart"></i></a></li>
+          <li><a href=""><i class="fas fa-share"></i></a></li>
+          <li><a href=""><i class="fas fa-star"></i></a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
